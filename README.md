@@ -1,4 +1,4 @@
-# Gpio
+# Environment Cleaner
 
 [![Build Status](https://travis-ci.org/jeandesravines/env-cleaner.svg)](https://travis-ci.org/jeandesravines/env-cleaner)
 [![Coverage Status](https://coveralls.io/repos/github/jeandesravines/env-cleaner/badge.svg?branch=master)](https://coveralls.io/github/jeandesravines/env-cleaner?branch=master)
@@ -83,7 +83,7 @@ const EnvCleaner = require('@jdes/env-cleaner');
 
 before('Register modules to clean', () => {
   // Register the configuration file by default because it depends on process.env
-  // wich can be override in any test
+  // which can be override by any test
   EnvCleaner.register(require.resolve('../lib/configuration/configuration'));
 });
 

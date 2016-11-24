@@ -25,7 +25,7 @@ describe('EnvCleaner', () => {
       EnvCleaner.register(module);
       require(module);
     });
-    
+
     expect(EnvCleaner.registered).to.be.deep.equal(modules);
   });
 
