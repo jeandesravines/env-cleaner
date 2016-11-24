@@ -82,8 +82,8 @@ const EnvCleaner = require('@jdes/env-cleaner');
 /* ********************************** */
 
 before('Register modules to clean', () => {
-  // Register the configuration file by default because it depends on process.env
-  // which can be override by any test
+  // Register the configuration file by default because 
+  // it depends on process.env which can be override by any test
   EnvCleaner.register(require.resolve('../lib/configuration/configuration'));
 });
 
