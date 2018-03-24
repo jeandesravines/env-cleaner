@@ -2,7 +2,9 @@
  * Copyright 2017 Jean Desravines <hi@jeandesravines.com>
  */
 
-const { before, beforeEach, afterEach, describe, it } = require('mocha')
+const {
+  before, beforeEach, afterEach, describe, it,
+} = require('mocha')
 const { expect } = require('chai')
 const EnvCleaner = require('../../../lib/helper/env-cleaner')
 
