@@ -1,7 +1,9 @@
 # Environment Cleaner
 
 [![Build Status](https://travis-ci.org/jeandesravines/env-cleaner.svg)](https://travis-ci.org/jeandesravines/env-cleaner)
-[![Coverage Status](https://coveralls.io/repos/github/jeandesravines/env-cleaner/badge.svg?branch=master)](https://coveralls.io/github/jeandesravines/env-cleaner?branch=master)
+[![codecov](https://codecov.io/gh/jeandesravines/env-cleaner/branch/master/graph/badge.svg)](https://codecov.io/gh/jeandesravines/env-cleaner)
+
+/!\ Deprecated /!\
 
 Environment cleaner for Node.js and Mocha.  
 Can be used to clean `process.env` and `require.cache` between each tests.
@@ -18,9 +20,9 @@ Can be used to clean `process.env` and `require.cache` between each tests.
 
 ## Setup
 
-This module can then be installed with npm:
+This module can then be installed with yarn:
 ```shell
-npm install @jdes/env-cleaner
+yarn add @jdes/env-cleaner
 ```
 
 

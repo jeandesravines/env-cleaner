@@ -1,9 +1,11 @@
 {
   "env": {
-    "es6": true
+    "es6": true,
+    "node": true
   },
-  "extends": "google",
+  "extends": ["airbnb-base"],
   "rules": {
-    "max-len": ["error", 100]
+    "max-len": ["error", 100],
+    "semi": ["error", "never"]
   }
 }
